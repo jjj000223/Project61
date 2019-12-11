@@ -6,7 +6,7 @@ double change(int a);
 int main()
 {
 	double inch;
-	printf("ÀÎÄ¡ ÀÔ·Â: ");
+	printf("ì¸ì¹˜ ì…ë ¥: ");
 	scanf_s("%lf", &inch);
 	printf("%finch = %.2fcm \n", inch, change(inch));
 
